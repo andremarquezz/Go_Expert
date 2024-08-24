@@ -1,22 +1,22 @@
 # Checklist de Vídeos
 
 ## 1-Introdução
-- [ ] 1-Introdução
-- [ ] 2-O que é a Linguagem GO
-- [ ] 3-Histórico
-- [ ] 4-O que GO NÃO é
-- [ ] 5-Motivações
+- [x] 1-Introdução
+- [x] 2-O que é a Linguagem GO
+- [x] 3-Histórico
+- [x] 4-O que GO NÃO é
+- [x] 5-Motivações
 
 ## 2-Configurando ambiente
-- [ ] 1-Instalação
-- [ ] 2-Principais pastas
-- [ ] 3-Go no VSCode
+- [x] 1-Instalação
+- [x] 2-Principais pastas
+- [x] 3-Go no VSCode
 
 ## 3-Fundação
-- [ ] 1-Entendendo a primeira linha
-- [ ] 2-Declaração e atribuição
-- [ ] 3-Criação de tipos
-- [ ] 4-Importando fmt e tipagem
+- [x] 1-Entendendo a primeira linha
+- [x] 2-Declaração e atribuição
+- [x] 3-Criação de tipos
+- [x] 4-Importando fmt e tipagem
 - [ ] 5-Percorrendo Arrays
 - [ ] 6-Slices
 - [ ] 7-Maps
