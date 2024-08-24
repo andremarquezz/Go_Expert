@@ -17,7 +17,7 @@
 - [x] 2-Declaração e atribuição
 - [x] 3-Criação de tipos
 - [x] 4-Importando fmt e tipagem
-- [ ] 5-Percorrendo Arrays
+- [x] 5-Percorrendo Arrays
 - [ ] 6-Slices
 - [ ] 7-Maps
 - [ ] 8-Funções
