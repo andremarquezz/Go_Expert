@@ -18,16 +18,16 @@
 - [x] 3-Criação de tipos
 - [x] 4-Importando fmt e tipagem
 - [x] 5-Percorrendo Arrays
-- [ ] 6-Slices
-- [ ] 7-Maps
-- [ ] 8-Funções
-- [ ] 9-Funções variádicas
-- [ ] 10-Closures
-- [ ] 11-Iniciando com Structs
-- [ ] 12-Composição de Structs
-- [ ] 13-Métodos em Structs
-- [ ] 14-Interfaces
-- [ ] 15-Ponteiros
+- [x] 6-Slices
+- [x] 7-Maps
+- [x] 8-Funções
+- [x] 9-Funções variádicas
+- [x] 10-Closures
+- [x] 11-Iniciando com Structs
+- [x] 12-Composição de Structs
+- [x] 13-Métodos em Structs
+- [x] 14-Interfaces
+- [x] 15-Ponteiros
 - [ ] 16-Quando usar ponteiros
 - [ ] 17-Ponteiros e Structs
 - [ ] 18-Interfaces vazias
