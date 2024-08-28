@@ -28,9 +28,9 @@
 - [x] 13-Métodos em Structs
 - [x] 14-Interfaces
 - [x] 15-Ponteiros
-- [ ] 16-Quando usar ponteiros
-- [ ] 17-Ponteiros e Structs
-- [ ] 18-Interfaces vazias
+- [x] 16-Quando usar ponteiros
+- [x] 17-Ponteiros e Structs
+- [x] 18-Interfaces vazias
 - [ ] 19-Type assertation
 - [ ] 20-Generics
 - [ ] 21-Pacotes e módulos parte 1
