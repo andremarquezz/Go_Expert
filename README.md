@@ -31,11 +31,11 @@
 - [x] 16-Quando usar ponteiros
 - [x] 17-Ponteiros e Structs
 - [x] 18-Interfaces vazias
-- [ ] 19-Type assertation
-- [ ] 20-Generics
-- [ ] 21-Pacotes e módulos parte 1
-- [ ] 22-Pacotes e módulos parte 2
-- [ ] 23-Pacotes e módulos parte 3
+- [x] 19-Type assertation
+- [x] 20-Generics
+- [x] 21-Pacotes e módulos parte 1
+- [x] 22-Pacotes e módulos parte 2
+- [x] 23-Pacotes e módulos parte 3
 - [ ] 24-Instalando pacotes
 - [ ] 25-For
 - [ ] 26-Condicionais
