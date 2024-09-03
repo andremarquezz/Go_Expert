@@ -36,14 +36,14 @@
 - [x] 21-Pacotes e módulos parte 1
 - [x] 22-Pacotes e módulos parte 2
 - [x] 23-Pacotes e módulos parte 3
-- [ ] 24-Instalando pacotes
-- [ ] 25-For
-- [ ] 26-Condicionais
-- [ ] 27-Compilando projeto
+- [x] 24-Instalando pacotes
+- [x] 25-For
+- [x] 26-Condicionais
+- [x] 27-Compilando projeto
 
 ## 4-Pacotes importantes
-- [ ] 1-Manipulação de arquivos
-- [ ] 2-Realizando chamada HTTP
+- [x] 1-Manipulação de arquivos
+- [x] 2-Realizando chamada HTTP
 - [ ] 3-Defer
 - [ ] 4-Trabalhando com json
 - [ ] 5-Busca CEP
