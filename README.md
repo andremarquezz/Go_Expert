@@ -44,9 +44,9 @@
 ## 4-Pacotes importantes
 - [x] 1-Manipulação de arquivos
 - [x] 2-Realizando chamada HTTP
-- [ ] 3-Defer
-- [ ] 4-Trabalhando com json
-- [ ] 5-Busca CEP
+- [x] 3-Defer
+- [x] 4-Trabalhando com json
+- [x] 5-Busca CEP
 - [ ] 6-Iniciando com HTTP
 - [ ] 7-Manipulando Headers
 - [ ] 8-Criando função para BuscaCEP
