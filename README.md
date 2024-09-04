@@ -47,11 +47,11 @@
 - [x] 3-Defer
 - [x] 4-Trabalhando com json
 - [x] 5-Busca CEP
-- [ ] 6-Iniciando com HTTP
-- [ ] 7-Manipulando Headers
-- [ ] 8-Criando função para BuscaCEP
-- [ ] 9-Finalizando resposta para o servidor HTTP
-- [ ] 10-ServeMux
+- [x] 6-Iniciando com HTTP
+- [x] 7-Manipulando Headers
+- [x] 8-Criando função para BuscaCEP
+- [x] 9-Finalizando resposta para o servidor HTTP
+- [x] 10-ServeMux
 - [ ] 11-FileServer
 - [ ] 12-Iniciando com templates
 - [ ] 13-Template.Must
