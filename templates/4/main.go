@@ -1,10 +1,9 @@
 package main
 
 import (
-	"html/template"
 	"log"
 	"net/http"
-	"strings"
+	"text/template"
 )
 
 type Curso struct {
@@ -36,15 +35,9 @@ func TemplateHandler(w http.ResponseWriter, r *http.Request) {
 		Curso{"Python", 45},
 	}
 
-	t := template.New("content.html")
-	t.Funcs(template.FuncMap{"ToUpper": ToUpper})
-	t = template.Must(t.ParseFiles(templates...))
+	t := template.Must(template.New("content.html").ParseFiles(templates...))
 	err := t.Execute(w, cursos)
 	if err != nil {
 		http.Error(w, "Erro ao processar o template", http.StatusInternalServerError)
 	}
-}
-
-func ToUpper(s string) string {
-	return strings.ToUpper(s)
 }
