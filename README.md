@@ -52,12 +52,12 @@
 - [x] 8-Criando função para BuscaCEP
 - [x] 9-Finalizando resposta para o servidor HTTP
 - [x] 10-ServeMux
-- [ ] 11-FileServer
-- [ ] 12-Iniciando com templates
-- [ ] 13-Template.Must
-- [ ] 14-Templates com arquivo externo
-- [ ] 15-Templates com webserver
-- [ ] 16-Compondo templates
+- [x] 11-FileServer
+- [x] 12-Iniciando com templates
+- [x] 13-Template.Must
+- [x] 14-Templates com arquivo externo
+- [x] 15-Templates com webserver
+- [x] 16-Compondo templates
 - [ ] 17-Mapeando funções nos templates
 - [ ] 18-HttpClient com Timeout
 - [ ] 19-Trabalhando com Post
