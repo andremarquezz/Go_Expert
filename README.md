@@ -58,295 +58,390 @@
 - [x] 14-Templates com arquivo externo
 - [x] 15-Templates com webserver
 - [x] 16-Compondo templates
-- [ ] 17-Mapeando funções nos templates
-- [ ] 18-HttpClient com Timeout
-- [ ] 19-Trabalhando com Post
-- [ ] 20-Customizando Request
-- [ ] 21-Trabalhando com HTTP usando Contextos
+- [x] 17-Mapeando funções nos templates
+- [x] 18-HttpClient com Timeout
+- [x] 19-Trabalhando com Post
+- [x] 20-Customizando Request
+- [x] 21-Trabalhando com HTTP usando Contextos
 
-## 5-Context
-- [ ] 1-Introdução aos contexto
-- [ ] 2-Entendendo conceitos básicos
-- [ ] 3-Context utilizando server HTTP
-- [ ] 4-Context no lado do Client
-- [ ] 5-Context WithValue
+# Semana 1
 
-## 6-Banco de dados
-- [ ] 1-Introdução a banco de dados
-- [ ] 2-Preparando base de código
-- [ ] 3-Inserindo dados no banco
-- [ ] 4-Alterando dados no banco
-- [ ] 5-Trabalhando com QueryRow
-- [ ] 6-Selecionando múltiplos registros
-- [ ] 7-Removendo registro
-- [ ] 8-Iniciando com GORM
-- [ ] 9-Configurando e criando operações
-- [ ] 10-Realizando primeiras consultas
-- [ ] 11-Realizando consultas com where
-- [ ] 12-Alterando e removendo registros
-- [ ] 13-Trabalhando com Soft delete
-- [ ] 14-Belongs to
-- [ ] 15-Has One
-- [ ] 16-Has many
-- [ ] 17-Pegadinha no has many
-- [ ] 18-Many to Many
-- [ ] 19-Lock otimista vs Pessimista
+### Segunda-feira - 09/09/2024
+- [ ] 5-Context - 1-Introdução aos contexto
+- [ ] 5-Context - 2-Entendendo conceitos básicos
+- [ ] 5-Context - 3-Context utilizando server HTTP
+- [ ] 5-Context - 4-Context no lado do Client
 
-## 7-Packaging
-- [ ] 1-Introduzindo go mod
-- [ ] 2-Acessando pacotes criados
-- [ ] 3-Exportação de objetos
-- [ ] 4-Entendendo go mod
-- [ ] 5-Trabalhando com go mod replace
-- [ ] 6-Usando workspaces
+### Terça-feira - 10/09/2024
+- [ ] 5-Context - 5-Context WithValue
+- [ ] 6-Banco de dados - 1-Introdução a banco de dados
+- [ ] 6-Banco de dados - 2-Preparando base de código
+- [ ] 6-Banco de dados - 3-Inserindo dados no banco
 
-## 8-Testing
-- [ ] 1-Iniciando com testes automatizados
-- [ ] 2-Testando em batch
-- [ ] 3-Verificando cobertura de código
-- [ ] 4-Trabalhando com benchmarking
-- [ ] 5-Fuzzing
-- [ ] 6-Iniciando com Testify
-- [ ] 7-Trabalhando com Mocks
+### Quarta-feira - 11/09/2024
+- [ ] 6-Banco de dados - 4-Alterando dados no banco
+- [ ] 6-Banco de dados - 5-Trabalhando com QueryRow
+- [ ] 6-Banco de dados - 6-Selecionando múltiplos registros
+- [ ] 6-Banco de dados - 7-Removendo registro
 
-## 9-APIs
-- [ ] 1-Falando sobre APIs
-- [ ] 2-Estruturando diretórios
-- [ ] 3-Criando arquivo de configuração
-- [ ] 4-Finalizando configuração
-- [ ] 5-Outras possibilidades de configuração
-- [ ] 6-Criando entidade User
-- [ ] 7-Testando User
-- [ ] 8-Criando entidade Product
-- [ ] 9-Testando Product
-- [ ] 10-Criando UserDB
-- [ ] 11-Testando criação do usuário
-- [ ] 12-Finalizando teste de UserDB
-- [ ] 13-Criando principais métodos de ProductDB
-- [ ] 14-Criando FindAll com paginação
-- [ ] 15-Testando ProductDB
-- [ ] 16-Finalizando testes de ProductDB
-- [ ] 17-Criando handler para criar produto
-- [ ] 18-Testando endpoint de criação de Product
-- [ ] 19-Ajustando package para os handlers
-- [ ] 20-Web frameoworks vs Frameworks
-- [ ] 21-Roteadores
-- [ ] 22-Buscando e alterando products
-- [ ] 23-Listando e removendo Products
-- [ ] 24-Criando user
-- [ ] 25-Falando sobre JW
-- [ ] 26-Gerando token JWT
-- [ ] 27-Protegendo products
-- [ ] 28-Criando e trabalhando com middlewares
-- [ ] 29-Iniciando com documentação da API
-- [ ] 30-Gerando primeira documentação
-- [ ] 31-Acessando swagger pela primeira vez
-- [ ] 32-Documentando criação do User
-- [ ] 33-Trabalhando na geração do access token
-- [ ] 34-Criando e listando products
-- [ ] 35-Finalizando docs
+### Quinta-feira - 12/09/2024
+- [ ] 6-Banco de dados - 8-Iniciando com GORM
+- [ ] 6-Banco de dados - 9-Configurando e criando operações
+- [ ] 6-Banco de dados - 10-Realizando primeiras consultas
+- [ ] 6-Banco de dados - 11-Realizando consultas com where
 
-## 10-Multithreading
-- [ ] 1-Iniciando com Processos
-- [ ] 2-Introdução a concorrência e Mutex
-- [ ] 3-Concorrência vs Paralelismo vs Go
-- [ ] 4-Multithreading
-- [ ] 5-Scheduler
-- [ ] 6-Go e suas green threads
-- [ ] 7-Iniciando com Go Routines
-- [ ] 8-Trabalhando com Wait Groups
-- [ ] 9-Problema simples de concorrência
-- [ ] 10-Entendendo Mutex e Operações Atômicas
-- [ ] 11-Iniciando com Channel
-- [ ] 12-Forever
-- [ ] 13-Iterando com range
-- [ ] 14-Range With WaitGroup
-- [ ] 15-Channel Directions
-- [ ] 16-Criando um Load Balancer
-- [ ] 17-Trabalhando com Select
-- [ ] 18-Canais com Buffer
+### Sexta-feira - 13/09/2024
+- [ ] 6-Banco de dados - 12-Alterando e removendo registros
+- [ ] 6-Banco de dados - 13-Trabalhando com Soft delete
+- [ ] 6-Banco de dados - 14-Belongs to
+- [ ] 6-Banco de dados - 15-Has One
 
-## 11-Manipulando eventos
-- [ ] 1-Introdução a eventos
-- [ ] 2-Elementos táticos de um contexto de eventos
-- [ ] 3-Criando Interfaces da solução
-- [ ] 4-Registrando eventos
-- [ ] 5-Criando suite de testes
-- [ ] 6-Testando Register
-- [ ] 7-Testando Registro de Handlers Repetidos
-- [ ] 8-Implementando e testando método Clear
-- [ ] 9-Implementando e testando método Has
-- [ ] 10-Implementando método Dispatch
-- [ ] 11-Revisitando slices
-- [ ] 12-Removendo handlers
-- [ ] 13-Adicionando go routine no event dispatcher
-- [ ] 14-Utilizando go routines no Dispatcher
-- [ ] 15-Instalando RabbitMQ
-- [ ] 16-Entendendo o RabbitMQ
-- [ ] 17-Consumindo mensagens do RabbitMQ
-- [ ] 18-Criando consumidor na pratica
-- [ ] 19-Produzindo e consumindo mensagens
+# Semana 2
 
-## 12-Módulos privados
-- [ ] 1-Introdução
-- [ ] 2-Criando repositório privado
-- [ ] 3-Configurando GOPRIVATE
-- [ ] 4-Autenticando no Bitbucket
-- [ ] 5-Go Proxy vs Vendor
+### Segunda-feira - 16/09/2024
+- [ ] 6-Banco de dados - 16-Has many
+- [ ] 6-Banco de dados - 17-Pegadinha no has many
+- [ ] 6-Banco de dados - 18-Many to Many
+- [ ] 6-Banco de dados - 19-Lock otimista vs Pessimista
 
-## 13-GraphQL
-- [ ] 1-Introdução ao GraphQL
-- [ ] 2-Gerando esqueleto do servidor GraphQL
-- [ ] 3-Criando Schema GraphQL
-- [ ] 4-Gerando esqueleto de nossa aplicação
-- [ ] 5-Criando resolver para Category
-- [ ] 6-Persistindo Category via Playground
-- [ ] 7-Fazendo queries de Category
-- [ ] 8-Implementando CourseDB
-- [ ] 9-Criando resolver de CreateCourse
-- [ ] 10-Implementando QueryCourses
-- [ ] 11-Dados encadeados
-- [ ] 12-Finalizando encadeamento de categorias
+### Terça-feira - 17/09/2024
+- [ ] 7-Packaging - 1-Introduzindo go mod
+- [ ] 7-Packaging - 2-Acessando pacotes criados
+- [ ] 7-Packaging - 3-Exportação de objetos
+- [ ] 7-Packaging - 4-Entendendo go mod
 
-## 14-gRPC
-- [ ] 1-Iniciando com gRPC
-- [ ] 2-Conceitos iniciais
-- [ ] 3-gRPC HTTP2 e Protocol Buffers
-- [ ] 4-Formatos de comunicação
-- [ ] 5-REST vs gRPC
-- [ ] 6-gRPC vs Protocol Buffers
-- [ ] 7-Instalando compilador e plugins
-- [ ] 8-Fazendo setup do projeto
-- [ ] 9-Criando nosso protofile
-- [ ] 10-Fazendo geração de código com protoc
-- [ ] 11-Implementando CreateCategory
-- [ ] 12-Criando servidor gRPC
-- [ ] 13-Interagindo com evans
-- [ ] 14-Criando categoryList no protofile
-- [ ] 15-Listando categories
-- [ ] 16-Buscando uma categoria
-- [ ] 17-Trabalhando com stream
-- [ ] 18-Trabalhando com streams bidirecionais
+### Quarta-feira - 18/09/2024
+- [ ] 7-Packaging - 5-Trabalhando com go mod replace
+- [ ] 7-Packaging - 6-Usando workspaces
+- [ ] 8-Testing - 1-Iniciando com testes automatizados
+- [ ] 8-Testing - 2-Testando em batch
 
-## 15-Upload S3
-- [ ] 1-Entendendo o problema referente a upload
-- [ ] 2-Gerando arquivos exemplo
-- [ ] 3-Configurando AWS session
-- [ ] 4-Desenvolvendo função de upload
-- [ ] 5-Finalizando primeira implementação
-- [ ] 6-Criando credenciais na AWS
-- [ ] 7-Fazendo upload de forma serial
-- [ ] 8-Realizando uploads usando go routines
-- [ ] 9-Limitando quantidade máxima de upload
-- [ ] 10-Fazendo retentativas de erro
+### Quinta-feira - 19/09/2024
+- [ ] 8-Testing - 3-Verificando cobertura de código
+- [ ] 8-Testing - 4-Trabalhando com benchmarking
+- [ ] 8-Testing - 5-Fuzzing
+- [ ] 8-Testing - 6-Iniciando com Testify
 
-## 16-Cobra CLI
-- [ ] 1-Introdução sobre CLI
-- [ ] 2-Setup básico da aplicação
-- [ ] 3-Inicializando projeto cobra
-- [ ] 4-Criando nossos primeiros comandos
-- [ ] 5-Comandos encadeados
-- [ ] 6-Flags locais vs globais
-- [ ] 7-Manipulando flags
-- [ ] 8-Flags mudando valor por referência
-- [ ] 9-Entendendo hooks
-- [ ] 10-Trabalhando com banco de dados
-- [ ] 11-Inversão de controle ao executar comandos
+### Sexta-feira - 20/09/2024
+- [ ] 8-Testing - 7-Trabalhando com Mocks
+- [ ] 9-APIs - 1-Falando sobre APIs
+- [ ] 9-APIs - 2-Estruturando diretórios
+- [ ] 9-APIs - 3-Criando arquivo de configuração
 
-## 17-SQLC
-- [ ] 1-Mais sobre banco de dados
-- [ ] 2-Trabalhando com migrations
-- [ ] 3-Falando sobre SQLX
-- [ ] 4-Iniciando com SQLC
-- [ ] 5-Criando CRUD
-- [ ] 6-Finalizando CRUD
-- [ ] 7-Iniciando com transações
-- [ ] 8-Implementando método para transação
-- [ ] 9-Vendo a transação funcionar
-- [ ] 10-Ajustando tipo de campo
-- [ ] 11-Exibindo dados com Join
+# Semana 3
 
-## 18-UOW
-- [ ] 1-Apresentando caso
-- [ ] 2-Entendendo inconsistência
-- [ ] 3-Entendendo Unit of Work
-- [ ] 4-Criando interface do UOW
-- [ ] 5-Registrando repositórios
-- [ ] 6-Implementando principais métodos
-- [ ] 7-Implementando GetRepository
-- [ ] 8-Criando novo caso de uso
-- [ ] 9-Testando implementação com uow
+### Segunda-feira - 23/09/2024
+- [ ] 9-APIs - 4-Finalizando configuração
+- [ ] 9-APIs - 5-Outras possibilidades de configuração
+- [ ] 9-APIs - 6-Criando entidade User
+- [ ] 9-APIs - 7-Testando User
 
-## 19-DI
-- [ ] 1-Introdução sobre DI
-- [ ] 2-Criando situação problema
-- [ ] 3-Exibindo árvore de dependencias
-- [ ] 4-Bibliotecas de DI
-- [ ] 5-Wire na prática
-- [ ] 6-Trabalhando com sets e Interfaces
-- [ ] 7-Sem pontas soltas
+### Terça-feira - 24/09/2024
+- [ ] 9-APIs - 8-Criando entidade Product
+- [ ] 9-APIs - 9-Testando Product
+- [ ] 9-APIs - 10-Criando UserDB
+- [ ] 9-APIs - 11-Testando criação do usuário
 
-## 20-Clean Architecture
-- [ ] 1-Introdução
-- [ ] 2-Origem da Clean Architecture
-- [ ] 3-Pontos importantes sobre arquitetura
-- [ ] 4-Keep options open
-- [ ] 5-Use Cases
-- [ ] 6-O fluxo dos Use Cases
-- [ ] 7-Limites arquiteturais
-- [ ] 8-Input vs Output
-- [ ] 9-Entendendo DTOs
-- [ ] 10-Presenters
-- [ ] 11-Entities vs DDD
-- [ ] 12-Nosso objetivo
-- [ ] 13-Entity e UseCase
-- [ ] 14-Repositorios e EventHandler
-- [ ] 15-Webserver
-- [ ] 16-gRPC
-- [ ] 17-GraphQL
-- [ ] 18-Configuração com Viper
-- [ ] 19-RabbitMQ e Google Wire
-- [ ] 20-Executando servidores
-- [ ] 21-Tudo funcionando
-- [ ] 22-Sobre o desafio
+### Quarta-feira - 25/09/2024
+- [ ] 9-APIs - 12-Finalizando teste de UserDB
+- [ ] 9-APIs - 13-Criando principais métodos de ProductDB
+- [ ] 9-APIs - 14-Criando FindAll com paginação
+- [ ] 9-APIs - 15-Testando ProductDB
 
-## 21-Deploy com Docker e Kubernetes
-- [ ] 1-O que faremos
-- [ ] 2-Criando projeto exemplo
-- [ ] 3-Criando Dockerfile
-- [ ] 4-Go com Docker em modo dev
-- [ ] 5-Entendendo processo de build
-- [ ] 6-Otimizando geração do executável
-- [ ] 7-Gerando imagem otimizada
-- [ ] 8-C GO e seus impactos
-- [ ] 9-Criando cluster kubernetes com Kind
-- [ ] 10-Criando primeiro deployment
-- [ ] 11-Criando service no kubernetes
-- [ ] 12-Probes
-- [ ] 13-Palavras finais
+### Quinta-feira - 26/09/2024
+- [ ] 9-APIs - 16-Finalizando testes de ProductDB
+- [ ] 9-APIs - 17-Criando handler para criar produto
+- [ ] 9-APIs - 18-Testando endpoint de criação de Product
+- [ ] 9-APIs - 19-Ajustando package para os handlers
 
-## Eventos
+### Sexta-feira - 27/09/2024
+- [ ] 9-APIs - 20-Web frameoworks vs Frameworks
+- [ ] 9-APIs - 21-Roteadores
+- [ ] 9-APIs - 22-Buscando e alterando products
+- [ ] 9-APIs - 23-Listando e removendo Products
 
-## Eventos\Go intensivo 1 (PFA)
-- [ ] split_GO- Oportunidades e primeiros passos_9fb99-001
-- [ ] split_GO- Oportunidades e primeiros passos_9fb99-002
-- [ ] split_Go_HTTP,_APIs_e_Deployment_+_Oportunidade_para_se_aprofundar
-- [ ] split_Go_HTTP,_APIs_e_Deployment_+_Oportunidade_para_se_aprofundar (1)
-- [ ] split_Go_Performance_e_Multithreading_com_RabbitMQ_9fb99_001
-- [ ] split_Go_Performance_e_Multithreading_com_RabbitMQ_9fb99_002
+# Semana 4
 
-## Eventos\Go intensivo 2
-- [ ] Go_HTTP,_APIs_e_Deployment_+_Oportunidade_para_se_aprofundar_com
-- [ ] split_GO- Oportunidades e primeiros passos_2_bb0c2-001
-- [ ] split_GO- Oportunidades e primeiros passos_2_bb0c2-002
-- [ ] split_Go_Performance_e_Multithreading_com_RabbitMQ_2_bb0c2_001
-- [ ] split_Go_Performance_e_Multithreading_com_RabbitMQ_2_bb0c2_002
+### Segunda-feira - 30/09/2024
+- [ ] 9-APIs - 24-Criando user
+- [ ] 9-APIs - 25-Falando sobre JW
+- [ ] 9-APIs - 26-Gerando token JWT
+- [ ] 9-APIs - 27-Protegendo products
 
-## Eventos\Go intensivo 3
-- [ ] split_Go_Performance_e_Multithreading_com_Kafka_+_Computação_Visual01
-- [ ] split_Go_Performance_e_Multithreading_com_Kafka_+_Computação_Visual02
-- [ ] split_Golang- Oportunidades e primeiros passos_b9b12-001
-- [ ] split_Golang- Oportunidades e primeiros passos_b9b12-002
-- [ ] split_Integração_do_Chat_GPT_com_WhatsApp_+_Abertura_das_matrículas01
-- [ ] split_Integração_do_Chat_GPT_com_WhatsApp_+_Abertura_das_matrículas02
+### Terça-feira - 01/10/2024
+- [ ] 9-APIs - 28-Criando e trabalhando com middlewares
+- [ ] 9-APIs - 29-Iniciando com documentação da API
+- [ ] 9-APIs - 30-Gerando primeira documentação
+- [ ] 9-APIs - 31-Acessando swagger pela primeira vez
 
+### Quarta-feira - 02/10/2024
+- [ ] 9-APIs - 32-Documentando criação do User
+- [ ] 9-APIs - 33-Trabalhando na geração do access token
+- [ ] 9-APIs - 34-Criando e listando products
+- [ ] 9-APIs - 35-Finalizando docs
+
+### Quinta-feira - 03/10/2024
+- [ ] 10-Multithreading - 1-Iniciando com Processos
+- [ ] 10-Multithreading - 2-Introdução a concorrência e Mutex
+- [ ] 10-Multithreading - 3-Concorrência vs Paralelismo vs Go
+- [ ] 10-Multithreading - 4-Multithreading
+
+### Sexta-feira - 04/10/2024
+- [ ] 10-Multithreading - 5-Scheduler
+- [ ] 10-Multithreading - 6-Go e suas green threads
+- [ ] 10-Multithreading - 7-Iniciando com Go Routines
+- [ ] 10-Multithreading - 8-Trabalhando com Wait Groups
+
+## Semana 5
+
+### Segunda-feira, 07/10/2024
+- [ ] 10-Multithreading: 7-Problema simples de concorrência
+- [ ] 10-Multithreading: 8-Entendendo Mutex e Operações Atômicas
+- [ ] 10-Multithreading: 9-Iniciando com Channel
+- [ ] 10-Multithreading: 10-Forever
+      
+### Terça-feira, 08/10/2024
+- [ ] 10-Multithreading: 11-Iterando com range
+- [ ] 10-Multithreading: 12-Range With WaitGroup
+- [ ] 10-Multithreading: 13-Channel Directions
+
+### Quarta-feira, 09/10/2024
+- [ ] 10-Multithreading: 14-Criando um Load Balancer
+- [ ] 10-Multithreading: 15-Trabalhando com Select
+- [ ] 10-Multithreading: 16-Canais com Buffer
+
+### Quinta-feira, 10/10/2024
+- [ ] 11-Manipulando eventos: 1-Introdução a eventos
+- [ ] 11-Manipulando eventos: 2-Elementos táticos de um contexto de eventos
+- [ ] 11-Manipulando eventos: 3-Criando Interfaces da solução
+- [ ] 11-Manipulando eventos: 4-Registrando eventos
+
+### Sexta-feira, 11/10/2024
+- [ ] 11-Manipulando eventos: 5-Criando suite de testes
+- [ ] 11-Manipulando eventos: 6-Testando Register
+- [ ] 11-Manipulando eventos: 7-Testando Registro de Handlers Repetidos
+- [ ] 11-Manipulando eventos: 8-Implementando e testando método Clear
+
+## Semana 6
+
+### Segunda-feira, 14/10/2024
+- [ ] 11-Manipulando eventos: 9-Implementando e testando método Has
+- [ ] 11-Manipulando eventos: 10-Implementando método Dispatch
+- [ ] 11-Manipulando eventos: 11-Revisitando slices
+- [ ] 11-Manipulando eventos: 12-Removendo handlers
+
+### Terça-feira, 15/10/2024
+- [ ] 11-Manipulando eventos: 13-Adicionando go routine no event dispatcher
+- [ ] 11-Manipulando eventos: 14-Utilizando go routines no Dispatcher
+- [ ] 11-Manipulando eventos: 15-Instalando RabbitMQ
+- [ ] 11-Manipulando eventos: 16-Entendendo o RabbitMQ
+
+### Quarta-feira, 16/10/2024
+- [ ] 11-Manipulando eventos: 17-Consumindo mensagens do RabbitMQ
+- [ ] 11-Manipulando eventos: 18-Criando consumidor na prática
+- [ ] 12-Módulos privados: 1-Introdução
+- [ ] 12-Módulos privados: 2-Criando repositório privado
+
+### Quinta-feira, 17/10/2024
+- [ ] 12-Módulos privados: 3-Configurando GOPRIVATE
+- [ ] 12-Módulos privados: 4-Autenticando no Bitbucket
+- [ ] 12-Módulos privados: 5-Go Proxy vs Vendor
+- [ ] 13-GraphQL: 1-Introdução ao GraphQL
+
+### Sexta-feira, 18/10/2024
+- [ ] 13-GraphQL: 2-Gerando esqueleto do servidor GraphQL
+- [ ] 13-GraphQL: 3-Criando Schema GraphQL
+- [ ] 13-GraphQL: 4-Gerando esqueleto de nossa aplicação
+- [ ] 13-GraphQL: 5-Criando resolver para Category
+
+## Semana 7
+
+### Segunda-feira, 21/10/2024
+- [ ] 13-GraphQL: 6-Persistindo Category via Playground
+- [ ] 13-GraphQL: 7-Fazendo queries de Category
+- [ ] 13-GraphQL: 8-Implementando CourseDB
+- [ ] 13-GraphQL: 9-Criando resolver de CreateCourse
+
+### Terça-feira, 22/10/2024
+- [ ] 13-GraphQL: 10-Implementando QueryCourses
+- [ ] 13-GraphQL: 11-Dados encadeados
+- [ ] 13-GraphQL: 12-Finalizando encadeamento de categorias
+- [ ] 14-gRPC: 1-Iniciando com gRPC
+
+### Quarta-feira, 23/10/2024
+- [ ] 14-gRPC: 2-Conceitos iniciais
+- [ ] 14-gRPC: 3-gRPC HTTP2 e Protocol Buffers
+- [ ] 14-gRPC: 4-Formatos de comunicação
+- [ ] 14-gRPC: 5-REST vs gRPC
+
+### Quinta-feira, 24/10/2024
+- [ ] 14-gRPC: 6-gRPC vs Protocol Buffers
+- [ ] 14-gRPC: 7-Instalando compilador e plugins
+- [ ] 14-gRPC: 8-Fazendo setup do projeto
+- [ ] 14-gRPC: 9-Criando nosso protofile
+
+### Sexta-feira, 25/10/2024
+- [ ] 14-gRPC: 10-Fazendo geração de código com protoc
+- [ ] 14-gRPC: 11-Implementando CreateCategory
+- [ ] 14-gRPC: 12-Criando servidor gRPC
+- [ ] 14-gRPC: 13-Interagindo com evans
+
+## Semana 8
+
+### Segunda-feira, 28/10/2024
+- [ ] 14-gRPC: 14-Criando categoryList no protofile
+- [ ] 14-gRPC: 15-Listando categories
+- [ ] 14-gRPC: 16-Buscando uma categoria
+- [ ] 14-gRPC: 17-Trabalhando com stream
+
+### Terça-feira, 29/10/2024
+- [ ] 14-gRPC: 18-Trabalhando com streams bidirecionais
+- [ ] 15-Upload S3: 1-Entendendo o problema referente a upload
+- [ ] 15-Upload S3: 2-Gerando arquivos exemplo
+- [ ] 15-Upload S3: 3-Configurando AWS session
+
+### Quarta-feira, 30/10/2024
+- [ ] 15-Upload S3: 4-Desenvolvendo função de upload
+- [ ] 15-Upload S3: 5-Finalizando primeira implementação
+- [ ] 15-Upload S3: 6-Criando credenciais na AWS
+- [ ] 15-Upload S3: 7-Fazendo upload de forma serial
+
+### Quinta-feira, 31/10/2024
+- [ ] 15-Upload S3: 8-Realizando uploads usando go routines
+- [ ] 15-Upload S3: 9-Limitando quantidade máxima de upload
+- [ ] 15-Upload S3: 10-Fazendo retentativas de erro
+- [ ] 16-Cobra CLI: 1-Introdução sobre CLI
+
+### Sexta-feira, 01/11/2024
+- [ ] 16-Cobra CLI: 2-Setup básico da aplicação
+- [ ] 16-Cobra CLI: 3-Inicializando projeto cobra
+- [ ] 16-Cobra CLI: 4-Criando nossos primeiros comandos
+- [ ] 16-Cobra CLI: 5-Comandos encadeados
+
+## Semana 9
+
+### Segunda-feira, 04/11/2024
+- [ ] 16-Cobra CLI: 6-Flags locais vs globais
+- [ ] 16-Cobra CLI: 7-Manipulando flags
+- [ ] 16-Cobra CLI: 8-Flags mudando valor por referência
+- [ ] 16-Cobra CLI: 9-Entendendo hooks
+
+### Terça-feira, 05/11/2024
+- [ ] 16-Cobra CLI: 10-Trabalhando com banco de dados
+- [ ] 16-Cobra CLI: 11-Inversão de controle ao executar comandos
+- [ ] 17-SQLC: 1-Mais sobre banco de dados
+- [ ] 17-SQLC: 2-Trabalhando com migrations
+
+### Quarta-feira, 06/11/2024
+- [ ] 16-Cobra CLI: 10-Trabalhando com banco de dados
+- [ ] 16-Cobra CLI: 11-Inversão de controle ao executar comandos
+- [ ] 17-SQLC: 1-Mais sobre banco de dados
+- [ ] 17-SQLC: 2-Trabalhando com migrations
+
+### Quinta-feira, 07/11/2024
+- [ ] 17-SQLC: 3-Falando sobre SQLX
+- [ ] 17-SQLC: 4-Iniciando com SQLC
+- [ ] 17-SQLC: 5-Criando CRUD
+- [ ] 17-SQLC: 6-Finalizando CRUD
+
+### Sexta-feira, 08/11/2024
+- [ ] 17-SQLC: 7-Iniciando com transações
+- [ ] 17-SQLC: 8-Implementando método para transação
+- [ ] 17-SQLC: 9-Vendo a transação funcionar
+- [ ] 17-SQLC: 10-Ajustando tipo de campo
+
+## Semana 10
+
+### Segunda-feira, 11/11/2024
+- [ ] 17-SQLC: 11-Exibindo dados com Join
+- [ ] 18-UOW: 1-Apresentando caso
+- [ ] 18-UOW: 2-Entendendo inconsistência
+- [ ] 18-UOW: 3-Entendendo Unit of Work
+
+### Terça-feira, 12/11/2024
+- [ ] 18-UOW: 4-Criando interface do UOW
+- [ ] 18-UOW: 5-Registrando repositórios
+- [ ] 18-UOW: 6-Implementando principais métodos
+- [ ] 18-UOW: 7-Implementando GetRepository
+
+### Quarta-feira, 13/11/2024
+- [ ] 18-UOW: 8-Criando novo caso de uso
+- [ ] 18-UOW: 9-Testando implementação com uow
+- [ ] 19-DI: 1-Introdução sobre DI
+- [ ] 19-DI: 2-Criando situação problema
+
+### Quinta-feira, 14/11/2024
+- [ ] 19-DI: 3-Exibindo árvore de dependências
+- [ ] 19-DI: 4-Bibliotecas de DI
+- [ ] 19-DI: 5-Wire na prática
+- [ ] 19-DI: 6-Trabalhando com sets e Interfaces
+
+### Sexta-feira, 15/11/2024
+- [ ] 19-DI: 7-Sem pontas soltas
+- [ ] 20-Clean Architecture: 1-Introdução
+- [ ] 20-Clean Architecture: 2-Origem da Clean Architecture
+- [ ] 20-Clean Architecture: 3-Pontos importantes sobre arquitetura
+
+## Semana 11
+
+### Segunda-feira, 18/11/2024
+- [ ] 20-Clean Architecture: 4-Keep options open
+- [ ] 20-Clean Architecture: 5-Use Cases
+- [ ] 20-Clean Architecture: 6-O fluxo dos Use Cases
+- [ ] 20-Clean Architecture: 7-Limites arquiteturais
+
+### Terça-feira, 19/11/2024
+- [ ] 20-Clean Architecture: 8-Input vs Output
+- [ ] 20-Clean Architecture: 9-Entendendo DTOs
+- [ ] 20-Clean Architecture: 10-Presenters
+- [ ] 20-Clean Architecture: 11-Entities vs DDD
+
+### Quarta-feira, 20/11/2024
+- [ ] 20-Clean Architecture: 12-Nosso objetivo
+- [ ] 20-Clean Architecture: 13-Entity e UseCase
+- [ ] 20-Clean Architecture: 14-Repositórios e EventHandler
+- [ ] 20-Clean Architecture: 15-Webserver
+
+### Quinta-feira, 21/11/2024
+- [ ] 20-Clean Architecture: 16-gRPC
+- [ ] 20-Clean Architecture: 17-GraphQL
+- [ ] 20-Clean Architecture: 18-Configuração com Viper
+- [ ] 20-Clean Architecture: 19-RabbitMQ e Google Wire
+
+### Sexta-feira, 22/11/2024
+- [ ] 20-Clean Architecture: 20-Executando servidores
+- [ ] 20-Clean Architecture: 21-Tudo funcionando
+- [ ] 20-Clean Architecture: 22-Sobre o desafio
+- [ ] 21-Deploy com Docker e Kubernetes: 1-O que faremos
+
+## Semana 12
+
+### Segunda-feira, 25/11/2024
+- [ ] 21-Deploy com Docker e Kubernetes: 2-Criando projeto exemplo
+- [ ] 21-Deploy com Docker e Kubernetes: 3-Criando Dockerfile
+- [ ] 21-Deploy com Docker e Kubernetes: 4-Go com Docker em modo dev
+- [ ] 21-Deploy com Docker e Kubernetes: 5-Entendendo processo de build
+
+### Terça-feira, 26/11/2024
+- [ ] 21-Deploy com Docker e Kubernetes: 6-Otimizando geração do executável
+- [ ] 21-Deploy com Docker e Kubernetes: 7-Gerando imagem otimizada
+- [ ] 21-Deploy com Docker e Kubernetes: 8-C GO e seus impactos
+- [ ] 21-Deploy com Docker e Kubernetes: 9-Criando cluster kubernetes com Kind
+
+### Quarta-feira, 27/11/2024
+- [ ] 21-Deploy com Docker e Kubernetes: 10-Criando primeiro deployment
+- [ ] 21-Deploy com Docker e Kubernetes: 11-Criando service no kubernetes
+- [ ] 21-Deploy com Docker e Kubernetes: 12-Probes
+- [ ] 21-Deploy com Docker e Kubernetes: 13-Palavras finais
+
+### Quinta-feira, 28/11/2024
+- [ ] Eventos\Go intensivo 1 (PFA): split_GO- Oportunidades e primeiros passos_9fb99-001
+- [ ] Eventos\Go intensivo 1 (PFA): split_GO- Oportunidades e primeiros passos_9fb99-002
+- [ ] Eventos\Go intensivo 1 (PFA): split_Go_HTTP,_APIs_e_Deployment_+_Oportunidade_para_se_aprofundar
+- [ ] Eventos\Go intensivo 1 (PFA): split_Go_HTTP,_APIs_e_Deployment_+_Oportunidade_para_se_aprofundar (1)
+
+### Sexta-feira, 29/11/2024
+- [ ] Eventos\Go intensivo 1 (PFA): split_Go_Performance_e_Multithreading_com_RabbitMQ_9fb99_001
+- [ ] Eventos\Go intensivo 1 (PFA): split_Go_Performance_e_Multithreading_com_RabbitMQ_9fb99_002
+- [ ] Eventos\Go intensivo 2: Go_HTTP,_APIs_e_Deployment_+_Oportunidade_para_se_aprofundar_com
+- [ ] Eventos\Go intensivo 2: split_GO- Oportunidades e primeiros passos_2_bb0c2-001
