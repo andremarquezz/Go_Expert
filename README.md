@@ -67,16 +67,16 @@
 # Semana 1
 
 ### Segunda-feira - 09/09/2024
-- [ ] 5-Context - 1-Introdução aos contexto
-- [ ] 5-Context - 2-Entendendo conceitos básicos
-- [ ] 5-Context - 3-Context utilizando server HTTP
-- [ ] 5-Context - 4-Context no lado do Client
+- [x] 5-Context - 1-Introdução aos contexto
+- [x] 5-Context - 2-Entendendo conceitos básicos
+- [x] 5-Context - 3-Context utilizando server HTTP
+- [x] 5-Context - 4-Context no lado do Client
 
 ### Terça-feira - 10/09/2024
-- [ ] 5-Context - 5-Context WithValue
-- [ ] 6-Banco de dados - 1-Introdução a banco de dados
-- [ ] 6-Banco de dados - 2-Preparando base de código
-- [ ] 6-Banco de dados - 3-Inserindo dados no banco
+- [x] 5-Context - 5-Context WithValue
+- [x] 6-Banco de dados - 1-Introdução a banco de dados
+- [x] 6-Banco de dados - 2-Preparando base de código
+- [x] 6-Banco de dados - 3-Inserindo dados no banco
 
 ### Quarta-feira - 11/09/2024
 - [ ] 6-Banco de dados - 4-Alterando dados no banco
