@@ -1,4 +1,4 @@
-# Checklist de Vídeos
+# Checklist de Conteúdo
 
 ## 1-Introdução
 - [x] 1-Introdução
@@ -79,10 +79,10 @@
 - [x] 6-Banco de dados - 3-Inserindo dados no banco
 
 ### Quarta-feira - 11/09/2024
-- [ ] 6-Banco de dados - 4-Alterando dados no banco
-- [ ] 6-Banco de dados - 5-Trabalhando com QueryRow
-- [ ] 6-Banco de dados - 6-Selecionando múltiplos registros
-- [ ] 6-Banco de dados - 7-Removendo registro
+- [x] 6-Banco de dados - 4-Alterando dados no banco
+- [x] 6-Banco de dados - 5-Trabalhando com QueryRow
+- [x] 6-Banco de dados - 6-Selecionando múltiplos registros
+- [x] 6-Banco de dados - 7-Removendo registro
 
 ### Quinta-feira - 12/09/2024
 - [ ] 6-Banco de dados - 8-Iniciando com GORM
