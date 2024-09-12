@@ -99,10 +99,10 @@
 # Semana 2
 
 ### Segunda-feira - 16/09/2024
-- [ ] 6-Banco de dados - 16-Has many
-- [ ] 6-Banco de dados - 17-Pegadinha no has many
-- [ ] 6-Banco de dados - 18-Many to Many
-- [ ] 6-Banco de dados - 19-Lock otimista vs Pessimista
+- [x] 6-Banco de dados - 16-Has many
+- [x] 6-Banco de dados - 17-Pegadinha no has many
+- [x] 6-Banco de dados - 18-Many to Many
+- [x] 6-Banco de dados - 19-Lock otimista vs Pessimista
 
 ### Terça-feira - 17/09/2024
 - [ ] 7-Packaging - 1-Introduzindo go mod
