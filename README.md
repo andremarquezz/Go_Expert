@@ -91,10 +91,10 @@
 - [x] 6-Banco de dados - 11-Realizando consultas com where
 
 ### Sexta-feira - 13/09/2024
-- [ ] 6-Banco de dados - 12-Alterando e removendo registros
-- [ ] 6-Banco de dados - 13-Trabalhando com Soft delete
-- [ ] 6-Banco de dados - 14-Belongs to
-- [ ] 6-Banco de dados - 15-Has One
+- [x] 6-Banco de dados - 12-Alterando e removendo registros
+- [x] 6-Banco de dados - 13-Trabalhando com Soft delete
+- [x] 6-Banco de dados - 14-Belongs to
+- [x] 6-Banco de dados - 15-Has One
 
 # Semana 2
 
