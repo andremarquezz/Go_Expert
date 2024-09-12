@@ -85,10 +85,10 @@
 - [x] 6-Banco de dados - 7-Removendo registro
 
 ### Quinta-feira - 12/09/2024
-- [ ] 6-Banco de dados - 8-Iniciando com GORM
-- [ ] 6-Banco de dados - 9-Configurando e criando operações
-- [ ] 6-Banco de dados - 10-Realizando primeiras consultas
-- [ ] 6-Banco de dados - 11-Realizando consultas com where
+- [x] 6-Banco de dados - 8-Iniciando com GORM
+- [x] 6-Banco de dados - 9-Configurando e criando operações
+- [x] 6-Banco de dados - 10-Realizando primeiras consultas
+- [x] 6-Banco de dados - 11-Realizando consultas com where
 
 ### Sexta-feira - 13/09/2024
 - [ ] 6-Banco de dados - 12-Alterando e removendo registros
