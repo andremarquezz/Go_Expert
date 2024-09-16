@@ -3,6 +3,7 @@ module github.com/andremarquezz/Go_Expert/Projeto_CotacaoDolar
 go 1.23.0
 
 require (
+	github.com/google/uuid v1.6.0
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/gorm v1.25.12
 )
