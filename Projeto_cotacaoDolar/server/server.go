@@ -52,16 +52,6 @@ type ErrorResponse struct {
 	Code    int    `json:"code"`
 }
 
-func connectDB() (*gorm.DB, error) {
-	dsn := "root:root@tcp(localhost:3306)/goexpert?charset=utf8mb4&parseTime=True&loc=Local"
-	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
-	if err != nil {
-		panic(err)
-	}
-	db.AutoMigrate(&quotation{})
-	return db, nil
-}
-
 func main() {
 	db, err := connectDB()
 	if err != nil {
@@ -80,6 +70,16 @@ func main() {
 	}
 }
 
+func connectDB() (*gorm.DB, error) {
+	dsn := "root:root@tcp(localhost:3306)/goexpert?charset=utf8mb4&parseTime=True&loc=Local"
+	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
+	if err != nil {
+		return nil, err
+	}
+	db.AutoMigrate(&quotation{})
+	return db, nil
+}
+
 func handleDollarQuotation(w http.ResponseWriter, db *gorm.DB) {
 	data, err := getQuotation()
 	if err != nil {
@@ -92,7 +92,6 @@ func handleDollarQuotation(w http.ResponseWriter, db *gorm.DB) {
 	}
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(data)
-
 }
 
 func handleError(w http.ResponseWriter, err error) {
@@ -102,7 +101,6 @@ func handleError(w http.ResponseWriter, err error) {
 	}
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusInternalServerError)
-
 	if err := json.NewEncoder(w).Encode(errorResponse); err != nil {
 		fmt.Fprintf(os.Stderr, "Erro ao codificar JSON de erro: %v\n", err)
 	}
@@ -116,7 +114,7 @@ func getQuotation() (*USDBRL, error) {
 
 	req, err := http.NewRequestWithContext(ctx, "GET", URL, nil)
 	if err != nil {
-		return nil, fmt.Errorf("erro durante a prepração da requisição: %w", err)
+		return nil, fmt.Errorf("erro durante a preparação da requisição: %w", err)
 	}
 	res, err := http.DefaultClient.Do(req)
 	if err != nil {
@@ -147,6 +145,7 @@ func getQuotation() (*USDBRL, error) {
 func saveQuotation(db *gorm.DB, data USDBRL) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Millisecond)
 	defer cancel()
+
 	q := quotation{
 		ID:         uuid.New().String(),
 		Code:       data.Code,
@@ -169,5 +168,4 @@ func saveQuotation(db *gorm.DB, data USDBRL) error {
 		return fmt.Errorf("erro ao salvar cotação: %w", err)
 	}
 	return nil
-
 }
