@@ -1,11 +1,16 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
+	"time"
+
+	"gorm.io/driver/mysql"
+	"gorm.io/gorm"
 )
 
 type USDBRL struct {
@@ -26,6 +31,11 @@ type QuotationResponse struct {
 	USDBRL USDBRL `json:"USDBRL"`
 }
 
+type quotation struct {
+	ID     int `gorm:"primaryKey"`
+	USDBRL USDBRL
+}
+
 func main() {
 	port := ":8080"
 	http.HandleFunc("/cotacao", handleDollarQuotation)
@@ -34,6 +44,15 @@ func main() {
 	if err := http.ListenAndServe(port, nil); err != nil {
 		fmt.Fprintf(os.Stderr, "erro ao iniciar o servidor: %v\n", err)
 	}
+}
+
+func connectDB() {
+	dsn := "root:root@tcp(localhost:3306)/goexpert?charset=utf8mb4&parseTime=True&loc=Local"
+	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
+	if err != nil {
+		panic(err)
+	}
+	db.AutoMigrate(&quotation{})
 }
 
 func handleDollarQuotation(w http.ResponseWriter, r *http.Request) {
@@ -47,13 +66,30 @@ func handleDollarQuotation(w http.ResponseWriter, r *http.Request) {
 }
 
 func getQuotation() (*USDBRL, error) {
-	req, err := http.Get("https://economia.awesomeapi.com.br/json/last/USD-BRL")
+	ctx, cancel := context.WithTimeout(context.Background(), 200*time.Millisecond)
+	defer cancel()
+
+	URL := "https://economia.awesomeapi.com.br/json/last/USD-BRL"
+
+	req, err := http.NewRequestWithContext(ctx, "GET", URL, nil)
 	if err != nil {
+		return nil, fmt.Errorf("erro durante a prepração da requisição: %w", err)
+	}
+	res, err := http.DefaultClient.Do(req)
+	if err != nil {
+		if ctx.Err() == context.DeadlineExceeded {
+			return nil, fmt.Errorf("requisição cancelada por timeout")
+		}
 		return nil, fmt.Errorf("erro ao fazer a requisição: %w", err)
 	}
-	defer req.Body.Close()
 
-	body, err := io.ReadAll(req.Body)
+	defer res.Body.Close()
+
+	if res.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("requisição retornou status %d", res.StatusCode)
+	}
+
+	body, err := io.ReadAll(res.Body)
 	if err != nil {
 		return nil, fmt.Errorf("erro ao ler o corpo da requisição: %w", err)
 	}
