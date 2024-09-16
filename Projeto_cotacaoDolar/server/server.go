@@ -83,28 +83,33 @@ func main() {
 func handleDollarQuotation(w http.ResponseWriter, db *gorm.DB) {
 	data, err := getQuotation()
 	if err != nil {
-		errorResponse := ErrorResponse{
-			Message: err.Error(),
-			Code:    http.StatusInternalServerError,
-		}
-		w.Header().Set("Content-Type", "application/json")
-		w.WriteHeader(http.StatusInternalServerError)
-
-		if err := json.NewEncoder(w).Encode(errorResponse); err != nil {
-			fmt.Fprintf(os.Stderr, "Erro ao codificar JSON de erro: %v\n", err)
-		}
+		handleError(w, err)
 		return
 	}
 	if err := saveQuotation(db, *data); err != nil {
-		http.Error(w, "Erro ao salvar cotação no banco de dados", http.StatusInternalServerError)
+		handleError(w, err)
+		return
 	}
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(data)
 
 }
 
+func handleError(w http.ResponseWriter, err error) {
+	errorResponse := ErrorResponse{
+		Message: err.Error(),
+		Code:    http.StatusInternalServerError,
+	}
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusInternalServerError)
+
+	if err := json.NewEncoder(w).Encode(errorResponse); err != nil {
+		fmt.Fprintf(os.Stderr, "Erro ao codificar JSON de erro: %v\n", err)
+	}
+}
+
 func getQuotation() (*USDBRL, error) {
-	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Millisecond)
+	ctx, cancel := context.WithTimeout(context.Background(), 200*time.Millisecond)
 	defer cancel()
 
 	URL := "https://economia.awesomeapi.com.br/json/last/USD-BRL"
