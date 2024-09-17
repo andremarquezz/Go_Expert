@@ -105,14 +105,14 @@
 - [x] 6-Banco de dados - 19-Lock otimista vs Pessimista
 
 ### Terça-feira - 17/09/2024
-- [ ] 7-Packaging - 1-Introduzindo go mod
-- [ ] 7-Packaging - 2-Acessando pacotes criados
-- [ ] 7-Packaging - 3-Exportação de objetos
-- [ ] 7-Packaging - 4-Entendendo go mod
+- [x] 7-Packaging - 1-Introduzindo go mod
+- [x] 7-Packaging - 2-Acessando pacotes criados
+- [x] 7-Packaging - 3-Exportação de objetos
+- [x] 7-Packaging - 4-Entendendo go mod
 
 ### Quarta-feira - 18/09/2024
-- [ ] 7-Packaging - 5-Trabalhando com go mod replace
-- [ ] 7-Packaging - 6-Usando workspaces
+- [x] 7-Packaging - 5-Trabalhando com go mod replace
+- [x] 7-Packaging - 6-Usando workspaces
 - [ ] 8-Testing - 1-Iniciando com testes automatizados
 - [ ] 8-Testing - 2-Testando em batch
 
