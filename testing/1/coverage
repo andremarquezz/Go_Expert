@@ -1,0 +1,9 @@
+mode: set
+taxgo/tax.go:3.42,4.15 1 1
+taxgo/tax.go:4.15,6.3 1 1
+taxgo/tax.go:6.8,6.24 1 1
+taxgo/tax.go:6.24,8.3 1 1
+taxgo/tax.go:9.2,9.12 1 1
+
+# go test -coverprofile=coverage
+# go tool cover -html=coverage
