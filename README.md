@@ -113,17 +113,17 @@
 ### Quarta-feira - 18/09/2024
 - [x] 7-Packaging - 5-Trabalhando com go mod replace
 - [x] 7-Packaging - 6-Usando workspaces
-- [ ] 8-Testing - 1-Iniciando com testes automatizados
-- [ ] 8-Testing - 2-Testando em batch
+- [x] 8-Testing - 1-Iniciando com testes automatizados
+- [x] 8-Testing - 2-Testando em batch
 
 ### Quinta-feira - 19/09/2024
-- [ ] 8-Testing - 3-Verificando cobertura de código
-- [ ] 8-Testing - 4-Trabalhando com benchmarking
-- [ ] 8-Testing - 5-Fuzzing
-- [ ] 8-Testing - 6-Iniciando com Testify
+- [x] 8-Testing - 3-Verificando cobertura de código
+- [x] 8-Testing - 4-Trabalhando com benchmarking
+- [x] 8-Testing - 5-Fuzzing
+- [x] 8-Testing - 6-Iniciando com Testify
 
 ### Sexta-feira - 20/09/2024
-- [ ] 8-Testing - 7-Trabalhando com Mocks
+- [x] 8-Testing - 7-Trabalhando com Mocks
 - [ ] 9-APIs - 1-Falando sobre APIs
 - [ ] 9-APIs - 2-Estruturando diretórios
 - [ ] 9-APIs - 3-Criando arquivo de configuração
