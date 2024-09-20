@@ -1,6 +1,10 @@
 package tax
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/stretchr/testify/assert"
+)
 
 // func TestCalculateTax(t *testing.T) {
 // 	expected := 2.0
@@ -25,6 +29,13 @@ func TestCalculateTaxBatch(t *testing.T) {
 			t.Errorf("Expected %f, got %f", item.expected, result)
 		}
 	}
+}
+
+func TestCalculateTaxWithAssert(t *testing.T) {
+	assert := assert.New(t)
+	assert.Equal(2.0, CalculateTax(50.0))
+	assert.Equal(3.0, CalculateTax(150.0))
+	assert.Equal(0.0, CalculateTax(-50.0))
 }
 
 func BenchmarkCalculateTax(b *testing.B) {
