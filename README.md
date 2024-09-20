@@ -124,15 +124,15 @@
 
 ### Sexta-feira - 20/09/2024
 - [x] 8-Testing - 7-Trabalhando com Mocks
-- [ ] 9-APIs - 1-Falando sobre APIs
-- [ ] 9-APIs - 2-Estruturando diretórios
-- [ ] 9-APIs - 3-Criando arquivo de configuração
+- [x] 9-APIs - 1-Falando sobre APIs
+- [x] 9-APIs - 2-Estruturando diretórios
+- [x] 9-APIs - 3-Criando arquivo de configuração
 
 # Semana 3
 
 ### Segunda-feira - 23/09/2024
-- [ ] 9-APIs - 4-Finalizando configuração
-- [ ] 9-APIs - 5-Outras possibilidades de configuração
+- [x] 9-APIs - 4-Finalizando configuração
+- [x] 9-APIs - 5-Outras possibilidades de configuração
 - [ ] 9-APIs - 6-Criando entidade User
 - [ ] 9-APIs - 7-Testando User
 
