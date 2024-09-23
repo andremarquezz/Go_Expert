@@ -133,8 +133,8 @@
 ### Segunda-feira - 23/09/2024
 - [x] 9-APIs - 4-Finalizando configuração
 - [x] 9-APIs - 5-Outras possibilidades de configuração
-- [ ] 9-APIs - 6-Criando entidade User
-- [ ] 9-APIs - 7-Testando User
+- [x] 9-APIs - 6-Criando entidade User
+- [x] 9-APIs - 7-Testando User
 
 ### Terça-feira - 24/09/2024
 - [ ] 9-APIs - 8-Criando entidade Product
