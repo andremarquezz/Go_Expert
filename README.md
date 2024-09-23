@@ -137,13 +137,13 @@
 - [x] 9-APIs - 7-Testando User
 
 ### Terça-feira - 24/09/2024
-- [ ] 9-APIs - 8-Criando entidade Product
-- [ ] 9-APIs - 9-Testando Product
-- [ ] 9-APIs - 10-Criando UserDB
-- [ ] 9-APIs - 11-Testando criação do usuário
+- [x] 9-APIs - 8-Criando entidade Product
+- [x] 9-APIs - 9-Testando Product
+- [x] 9-APIs - 10-Criando UserDB
+- [x] 9-APIs - 11-Testando criação do usuário
 
 ### Quarta-feira - 25/09/2024
-- [ ] 9-APIs - 12-Finalizando teste de UserDB
+- [x] 9-APIs - 12-Finalizando teste de UserDB
 - [ ] 9-APIs - 13-Criando principais métodos de ProductDB
 - [ ] 9-APIs - 14-Criando FindAll com paginação
 - [ ] 9-APIs - 15-Testando ProductDB
