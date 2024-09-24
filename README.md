@@ -144,12 +144,12 @@
 
 ### Quarta-feira - 25/09/2024
 - [x] 9-APIs - 12-Finalizando teste de UserDB
-- [ ] 9-APIs - 13-Criando principais métodos de ProductDB
-- [ ] 9-APIs - 14-Criando FindAll com paginação
-- [ ] 9-APIs - 15-Testando ProductDB
+- [x] 9-APIs - 13-Criando principais métodos de ProductDB
+- [x] 9-APIs - 14-Criando FindAll com paginação
+- [x] 9-APIs - 15-Testando ProductDB
 
 ### Quinta-feira - 26/09/2024
-- [ ] 9-APIs - 16-Finalizando testes de ProductDB
+- [x] 9-APIs - 16-Finalizando testes de ProductDB
 - [ ] 9-APIs - 17-Criando handler para criar produto
 - [ ] 9-APIs - 18-Testando endpoint de criação de Product
 - [ ] 9-APIs - 19-Ajustando package para os handlers
