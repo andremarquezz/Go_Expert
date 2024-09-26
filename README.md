@@ -150,9 +150,9 @@
 
 ### Quinta-feira - 26/09/2024
 - [x] 9-APIs - 16-Finalizando testes de ProductDB
-- [ ] 9-APIs - 17-Criando handler para criar produto
-- [ ] 9-APIs - 18-Testando endpoint de criação de Product
-- [ ] 9-APIs - 19-Ajustando package para os handlers
+- [x] 9-APIs - 17-Criando handler para criar produto
+- [x] 9-APIs - 18-Testando endpoint de criação de Product
+- [x] 9-APIs - 19-Ajustando package para os handlers
 
 ### Sexta-feira - 27/09/2024
 - [ ] 9-APIs - 20-Web frameoworks vs Frameworks
