@@ -155,18 +155,18 @@
 - [x] 9-APIs - 19-Ajustando package para os handlers
 
 ### Sexta-feira - 27/09/2024
-- [ ] 9-APIs - 20-Web frameoworks vs Frameworks
-- [ ] 9-APIs - 21-Roteadores
-- [ ] 9-APIs - 22-Buscando e alterando products
-- [ ] 9-APIs - 23-Listando e removendo Products
+- [x] 9-APIs - 20-Web frameoworks vs Frameworks
+- [x] 9-APIs - 21-Roteadores
+- [x] 9-APIs - 22-Buscando e alterando products
+- [x] 9-APIs - 23-Listando e removendo Products
 
 # Semana 4
 
 ### Segunda-feira - 30/09/2024
-- [ ] 9-APIs - 24-Criando user
-- [ ] 9-APIs - 25-Falando sobre JW
-- [ ] 9-APIs - 26-Gerando token JWT
-- [ ] 9-APIs - 27-Protegendo products
+- [x] 9-APIs - 24-Criando user
+- [x] 9-APIs - 25-Falando sobre JW
+- [x] 9-APIs - 26-Gerando token JWT
+- [x] 9-APIs - 27-Protegendo products
 
 ### Terça-feira - 01/10/2024
 - [ ] 9-APIs - 28-Criando e trabalhando com middlewares
